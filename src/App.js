@@ -11,8 +11,8 @@ function App() {
     <React.Fragment>
       <Header />
       <Routes>
-        <Route path={"/"} element={<Navigate to="fakeshop/list" />} />
-        <Route path={"/fakeshop/list"} element={<ProductListing />} />
+        <Route path={"/"} element={<Navigate to="product/list" />} />
+        <Route path={"/product/list"} element={<ProductListing />} />
         <Route path={"/product/:productId"} element={<ProductDetail />} />
         <Route>404 not found</Route>
       </Routes>
